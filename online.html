@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styel.css">
+
+</head>
+<style>
+    .img{
+        position: relative;
+        border-radius: 9px;
+        left: 40px;
+        bottom: 30px;
+    }
+    .text-center mb-4{
+        position: relative;
+        bottom: 20px;
+    }
+</style>
+<body style="background-color: rgba(0, 0, 0, 0.822);">
+    <nav class="navbar navbar-expand-lg bg color-white-body-dark color-white-body-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <img src="img.1-removebg-preview.png" class="sp"  width="100px  " height="70px"  alt="">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white text-center">
+              <li class="nav-item">
+                <a class="nav-link active ms-5 text-white " aria-current="page" href="index.html">Home</a>
+                <li class="nav-item">
+                    <a class="nav-link ms-3 active text-white" aria-current="page" href="about us .html">about us</a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  ms-2 active text-white " aria-current="page" href="ser.html">services</a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  ms-2 text-white " aria-current="page" href="contact .html">contact us </a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      categories
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item "  href="online.html">online class  </a></li>
+                      <li><a class="dropdown-item " href="physical.html">physical class</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"></a>
+                  </li>
+                </ul>             
+                <button class="btn btn-success" ><a class="dropdown-item" href="login .html">login</a></button>
+          </div>
+        </div>
+      </nav>
+      <style>
+             @keyframes appear {
+    from{
+      opacity: 0;
+      transform: translatey(-400px);
+      /* scale: 0; */
+    }
+    to{
+      opacity: 1;
+      transform: translatex(0);
+      /* scale: 1; */
+    }
+    
+  }
+  .container {
+    animation: appear 2s linear;
+    animation: timline view();
+    animation-range: entery  0 cover 40%
+
+  }
+      </style>
+      <div class="container mt-5">
+        <img src="https://img.freepik.com/premium-photo/fit-woman-sportswear-doing-yoga-exercise-mat-home-using-laptop-watching-tutorial-female-coach-has-virtual-yoga-class-computer_403156-114.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723420800&semt=ais_hybrid" width="90%" height="500px" class="img"  alt="">
+        <h2  style="color: white;" class=" text-center mb-4">Register for Online Yoga Classes</h2>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label  style="color: white;"  for="class-time" class="form-label">Preferred Class Time</label>
+                <select class="form-select" id="class-time" required>
+                    <option value="" disabled selected>Select your preferred class time</option>
+                    <option value="morning">Morning (8:00 AM - 10:00 AM)</option>
+                    <option value="afternoon">Afternoon (1:00 PM - 3:00 PM)</option>
+                    <option value="evening">Evening (6:00 PM - 8:00 PM)</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="form-floating">
+                    <textarea class="form-control" id="comments" placeholder="Additional Comments" style="height: 100px;"></textarea>
+                    <label for="comments">Additional Comments</label>
+                </div>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">Register</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <footer class="bg-light text-center py-3">
+        <p    style="color: rgba(14, 13, 13, 0.781);" class="mb-0">© 2024 Yoga Studio. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    
+</body>
+</html>

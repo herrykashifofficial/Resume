@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styel.css">
+</head>
+<style>
+      .class-card {
+            transition: transform 0.2s;
+        }
+        .class-card:hover {
+            transform: scale(1.05);
+        }
+</style>
+<body style="background-color: rgba(0, 0, 0, 0.822);">
+    <nav class="navbar navbar-expand-lg bg color-white-body-dark color-white-body-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <img src="img.1-removebg-preview.png" class="sp"  width="100px  " height="70px"  alt="">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white text-center">
+              <li class="nav-item">
+                <a class="nav-link active ms-5 text-white " aria-current="page" href="index.html">Home</a>
+                <li class="nav-item">
+                    <a class="nav-link ms-3 active text-white" aria-current="page" href="about us .html">about us</a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  ms-2 active text-white " aria-current="page" href="ser.html">services</a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  ms-2 text-white " aria-current="page" href="contact .html">contact us </a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      categories
+                    </a>
+                    <ul class="dropdown-menu">
+                      <!-- <li><a class="dropdown-item "  href="online.html">online class  </a></li> -->
+                      <li><a class="dropdown-item " href="physical.html">physical class</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"></a>
+                  </li>
+                </ul>             
+                <button class="btn btn-success" ><a class="dropdown-item" href="login .html">login</a></button>
+          </div>
+        </div>
+      </nav>
+      <style>
+             @keyframes appear {
+    from{
+      opacity: 0;
+      transform: translatey(-400px);
+      /* scale: 0; */
+    }
+    to{
+      opacity: 1;
+      transform: translatex(0);
+      /* scale: 1; */
+    }
+    
+  }
+  .container{
+    animation: appear 2s linear;
+    animation: timline view();
+    animation-range: entery  0 cover 40%
+
+  } 
+      </style>
+      <div class="container mt-5">
+        <header class="text-center mb-4">
+            <h1 style="color: white;">Physical Classes</h1>
+            <p style="color: white;">  Find the best class that suits your needs</p>
+        </header>
+
+        <section class="row">
+            <!-- Class Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card class-card">
+                    <img src="yoga.10.jpg" class="card-img-top" alt="Yoga Class">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga Class</h5>
+                        <p class="card-text">Join our relaxing yoga sessions that help improve flexibility and reduce stress.</p>
+                        <p class="card-text"><strong>Schedule:</strong> Mon & Wed, 6:00 PM - 7:00 PM</p>
+                        <p class="card-text"><strong>Instructor:</strong> Jane Doe</p>
+                        <p class="card-text"><strong>Price:</strong> $15 per session</p>
+                        <a href="#" class="btn btn-success">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Class Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card class-card">
+                    <img src="yoga.11.jpg" height="200px" class="card-img-top" alt="Pilates Class">
+                    <div class="card-body">
+                        <h5 class="card-title">Pilates Class</h5>
+                        <p class="card-text">Strengthen your core and improve posture with our invigorating Pilates sessions.</p>
+                        <p class="card-text"><strong>Schedule:</strong> Tue & Thu, 7:00 PM - 8:00 PM</p>
+                        <p class="card-text"><strong>Instructor:</strong> John Smith</p>
+                        <p class="card-text"><strong>Price:</strong> $20 per session</p>
+                        <a href="#" class="btn btn-success">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Class Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card class-card">
+                    <img src="yoga.5.jpeg" height="200px" class="card-img-top" alt="Zumba Class">
+                    <div class="card-body">
+                        <h5 class="card-title">Zumba Class</h5>
+                        <p class="card-text">Get your heart pumping and have fun with our energetic Zumba classes.</p>
+                        <p class="card-text"><strong>Schedule:</strong> Sat, 10:00 AM - 11:00 AM</p>
+                        <p class="card-text"><strong>Instructor:</strong> Emily Davis</p>
+                        <p class="card-text"><strong>Price:</strong> $12 per session</p>
+                        <a href="#" class="btn btn-success">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg- text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <!-- Company Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="color: rgba(241, 237, 237, 0.911);"> About [Your Car Company]</h5>
+                    <p style="color: rgba(235, 231, 231, 0.815);"> 
+                        [Your Car Company] has been a leader in the automotive industry for over [X] years, delivering quality vehicles that combine performance, style, and safety.
+                    </p>
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="color: rgba(230, 221, 221, 0.863);">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a  href="#" class="text-white">Home</a></li>
+                        <li ><a  href="about us .html" class="text-white">About Us</a></li>
+                        <li><a href="ser.html" class="text-white">Services</a></li>
+                        <li><a href="contact .html" class="text-white">Contact</a></li>
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-4 text-white">
+                    <h5 style="color: rgb(233, 226, 226);">Contact Us</h5>
+                    <ul class="list-unstyled  text-dark">
+                        <i style="color:white ;" class="fas fa-map-marker-alt"> 1234 Car Street, Auto City, CA 90001</i> 
+                        <i style="color: white;" class="fas fa-phone  text-white "> +1 (123) 456-7890</i>
+                        <i style="color: white;" class="fas fa-envelope"> info@carcompany.com</i>
+                    </ul>
+                    <h5 style="color: rgba(221, 212, 212, 0.877);">Follow Us</h5>
+                    <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mr-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i  style="color: white;" class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-3 text-dark">
+                    <p  style="color: white;" class="mb-0">&copy; 2024 [Your Car Company]. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
